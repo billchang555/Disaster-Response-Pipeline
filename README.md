@@ -3,7 +3,11 @@
 
 ### Data
 The data in this project comes from Figure Eight - Multilingual Disaster Response Messages.
+The data has 36 different categories related to disaster response and has been stripped of messages with sensitive information.
 This Flask Web app uses Machine Learning to predict the classification of a given typical disaster emergency response text message. 
+Original data mainly includes two csv files
+- categories.csv
+- messages.csv
 
 ### Installation
 - pandas
